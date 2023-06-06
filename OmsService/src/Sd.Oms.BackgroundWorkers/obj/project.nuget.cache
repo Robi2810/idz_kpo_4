@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "aQg79JwAkUElERCk2spRze1nh+JSsxj7UELXlnmiuhY04VsCyZ+8WA/h9wwAVWY4fC1/uYwRTlYZJy6baXoO9Q==",
+  "success": true,
+  "projectFilePath": "/Users/rodion/Desktop/KPO-IDZ4/hse-kpo-idz-4/OmsService/src/Sd.Oms.BackgroundWorkers/Sd.Oms.BackgroundWorkers.csproj",
+  "expectedPackageFiles": [
+    "/Users/rodion/.nuget/packages/microsoft.extensions.configuration.abstractions/7.0.0/microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
+    "/Users/rodion/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/7.0.0/microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "/Users/rodion/.nuget/packages/microsoft.extensions.fileproviders.abstractions/7.0.0/microsoft.extensions.fileproviders.abstractions.7.0.0.nupkg.sha512",
+    "/Users/rodion/.nuget/packages/microsoft.extensions.hosting.abstractions/7.0.0/microsoft.extensions.hosting.abstractions.7.0.0.nupkg.sha512",
+    "/Users/rodion/.nuget/packages/microsoft.extensions.primitives/7.0.0/microsoft.extensions.primitives.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

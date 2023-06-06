@@ -1,0 +1,42 @@
+version: '3.8'
+
+services:
+  oms-auth:
+    build:
+      context: ./AuthService
+    ports:
+      - "5030:80"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+
+  oms-auth-db:
+    image: postgres:14.4-alpine
+    container_name: oms-auth-db
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: auth-service
+      POSTGRES_PASSWORD: auth-service
+      POSTGRES_DB: auth-service
+    volumes:
+      - ./AuthService/migrations:/docker-entrypoint-initdb.d
+  
+  oms:
+    build:
+      context: ./OmsService
+    ports:
+      - "5031:80"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+    
+  oms-db:
+    image: postgres:14.4-alpine
+    container_name: oms-db
+    ports:
+      - "5433:5432"
+    environment:
+      POSTGRES_USER: oms-service
+      POSTGRES_PASSWORD: oms-service
+      POSTGRES_DB: oms-service
+    volumes:
+      - ./OmsService/migrations:/docker-entrypoint-initdb.d

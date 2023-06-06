@@ -1,0 +1,106 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/rodion/Desktop/KPO-IDZ4/hse-kpo-idz-4/OmsService/src/Sd.Oms.BackgroundWorkers/Sd.Oms.BackgroundWorkers.csproj": {}
+  },
+  "projects": {
+    "/Users/rodion/Desktop/KPO-IDZ4/hse-kpo-idz-4/OmsService/src/Sd.Oms.BackgroundWorkers/Sd.Oms.BackgroundWorkers.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/rodion/Desktop/KPO-IDZ4/hse-kpo-idz-4/OmsService/src/Sd.Oms.BackgroundWorkers/Sd.Oms.BackgroundWorkers.csproj",
+        "projectName": "Sd.Oms.BackgroundWorkers",
+        "projectPath": "/Users/rodion/Desktop/KPO-IDZ4/hse-kpo-idz-4/OmsService/src/Sd.Oms.BackgroundWorkers/Sd.Oms.BackgroundWorkers.csproj",
+        "packagesPath": "/Users/rodion/.nuget/packages/",
+        "outputPath": "/Users/rodion/Desktop/KPO-IDZ4/hse-kpo-idz-4/OmsService/src/Sd.Oms.BackgroundWorkers/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/rodion/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/rodion/Desktop/KPO-IDZ4/hse-kpo-idz-4/OmsService/src/Sd.Oms.Core/Sd.Oms.Core.csproj": {
+                "projectPath": "/Users/rodion/Desktop/KPO-IDZ4/hse-kpo-idz-4/OmsService/src/Sd.Oms.Core/Sd.Oms.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/rodion/Library/Caches/VisualStudio/8.0/MSBuild/41977_1/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/rodion/Desktop/KPO-IDZ4/hse-kpo-idz-4/OmsService/src/Sd.Oms.Core/Sd.Oms.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/rodion/Desktop/KPO-IDZ4/hse-kpo-idz-4/OmsService/src/Sd.Oms.Core/Sd.Oms.Core.csproj",
+        "projectName": "Sd.Oms.Core",
+        "projectPath": "/Users/rodion/Desktop/KPO-IDZ4/hse-kpo-idz-4/OmsService/src/Sd.Oms.Core/Sd.Oms.Core.csproj",
+        "packagesPath": "/Users/rodion/.nuget/packages/",
+        "outputPath": "/Users/rodion/Desktop/KPO-IDZ4/hse-kpo-idz-4/OmsService/src/Sd.Oms.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/rodion/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/rodion/Library/Caches/VisualStudio/8.0/MSBuild/41977_1/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

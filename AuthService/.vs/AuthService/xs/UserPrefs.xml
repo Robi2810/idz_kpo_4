@@ -1,0 +1,51 @@
+﻿<Properties StartupConfiguration="{3A62209B-EBC6-4EE4-A71E-B00F1D65FF22}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="migrations/base_schema_000.sql">
+    <Files>
+      <File FileName="src/Sd.Oms.Auth.Api/Controllers/AuthController.cs" Line="45" Column="33" />
+      <File FileName="src/Sd.Oms.Auth.Api/Requests/LoginRequest.cs" Line="1" Column="1" />
+      <File FileName="src/Sd.Oms.Auth.Api/Program.cs" Line="59" Column="11" />
+      <File FileName="src/Sd.Oms.Auth.Core/DTOs/LoginRequestDto.cs" Line="1" Column="1" />
+      <File FileName="src/Sd.Oms.Auth.Core/DTOs/LoginResponseDto.cs" Line="1" Column="1" />
+      <File FileName="src/Sd.Oms.Auth.Core/DTOs/RegistrationRequestDto.cs" Line="1" Column="1" />
+      <File FileName="src/Sd.Oms.Auth.Core/Entities/UserEntity.cs" Line="1" Column="1" />
+      <File FileName="src/Sd.Oms.Auth.Core/Exceptions/DomainException.cs" Line="1" Column="1" />
+      <File FileName="src/Sd.Oms.Auth.Core/Interfaces/IAuthenticationService.cs" Line="1" Column="1" />
+      <File FileName="src/Sd.Oms.Auth.Core/Interfaces/IUsersRepository.cs" Line="1" Column="1" />
+      <File FileName="src/Sd.Oms.Auth.Core/Models/User.cs" Line="1" Column="1" />
+      <File FileName="src/Sd.Oms.Auth.Core/Services/AuthenticationService.cs" Line="69" Column="28" />
+      <File FileName="src/Sd.Oms.Auth.Infrastructure/Repositories/UserRepository.cs" Line="59" Column="2" />
+      <File FileName="src/Sd.Oms.Auth.Infrastructure/Extensions/ServiceCollectionExtensions.cs" Line="1" Column="1" />
+      <File FileName="src/Sd.Oms.Auth.Api/Extensions/RequestsExtensions.cs" Line="1" Column="1" />
+      <File FileName="src/Sd.Oms.Auth.Api/Middlewares/ErrorMiddleware.cs" Line="1" Column="1" />
+      <File FileName="src/Sd.Oms.Auth.Api/Properties/launchSettings.json" Line="1" Column="1" />
+      <File FileName="migrations/base_schema_000.sql" Line="8" Column="48" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="AuthService" expanded="True">
+            <Node name="migrations" expanded="True">
+              <Node name="/Users/rodion/Desktop/KPO-IDZ4/hse-kpo-idz-4/AuthService/migrations/base_schema_000.sql" selected="True" />
+            </Node>
+            <Node name="src" expanded="True">
+              <Node name="Sd.Oms.Auth.Api" expanded="True">
+                <Node name="Controllers" expanded="True" />
+                <Node name="Extensions" expanded="True" />
+                <Node name="Middlewares" expanded="True" />
+                <Node name="Properties" expanded="True" />
+                <Node name="Requests" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.src.Sd.Oms.Auth.Api PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

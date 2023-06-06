@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "JqKcK1G6R7P7R8RGPQmxCPO9ao4a4fP+L+48BJmONu1s3B/ljejt6vDZ0/I06vSpMb1KKyRr3LvYZEt2jcxoVg==",
+  "success": true,
+  "projectFilePath": "/Users/rodion/Desktop/KPO-IDZ4/hse-kpo-idz-4/OmsService/src/Sd.Oms.Infrastructure/Sd.Oms.Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "/Users/rodion/.nuget/packages/dapper/2.0.123/dapper.2.0.123.nupkg.sha512",
+    "/Users/rodion/.nuget/packages/microsoft.extensions.configuration.abstractions/7.0.0/microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
+    "/Users/rodion/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/7.0.0/microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "/Users/rodion/.nuget/packages/microsoft.extensions.logging.abstractions/6.0.0/microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+    "/Users/rodion/.nuget/packages/microsoft.extensions.primitives/7.0.0/microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "/Users/rodion/.nuget/packages/npgsql/7.0.0/npgsql.7.0.0.nupkg.sha512",
+    "/Users/rodion/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

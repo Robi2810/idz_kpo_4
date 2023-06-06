@@ -1,0 +1,118 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/rodion/Desktop/KPO-IDZ4/hse-kpo-idz-4/AuthService/src/Sd.Oms.Auth.Infrastructure/Sd.Oms.Auth.Infrastructure.csproj": {}
+  },
+  "projects": {
+    "/Users/rodion/Desktop/KPO-IDZ4/hse-kpo-idz-4/AuthService/src/Sd.Oms.Auth.Core/Sd.Oms.Auth.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/rodion/Desktop/KPO-IDZ4/hse-kpo-idz-4/AuthService/src/Sd.Oms.Auth.Core/Sd.Oms.Auth.Core.csproj",
+        "projectName": "Sd.Oms.Auth.Core",
+        "projectPath": "/Users/rodion/Desktop/KPO-IDZ4/hse-kpo-idz-4/AuthService/src/Sd.Oms.Auth.Core/Sd.Oms.Auth.Core.csproj",
+        "packagesPath": "/Users/rodion/.nuget/packages/",
+        "outputPath": "/Users/rodion/Desktop/KPO-IDZ4/hse-kpo-idz-4/AuthService/src/Sd.Oms.Auth.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/rodion/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.30.1, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/rodion/Library/Caches/VisualStudio/8.0/MSBuild/41977_1/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/rodion/Desktop/KPO-IDZ4/hse-kpo-idz-4/AuthService/src/Sd.Oms.Auth.Infrastructure/Sd.Oms.Auth.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/rodion/Desktop/KPO-IDZ4/hse-kpo-idz-4/AuthService/src/Sd.Oms.Auth.Infrastructure/Sd.Oms.Auth.Infrastructure.csproj",
+        "projectName": "Sd.Oms.Auth.Infrastructure",
+        "projectPath": "/Users/rodion/Desktop/KPO-IDZ4/hse-kpo-idz-4/AuthService/src/Sd.Oms.Auth.Infrastructure/Sd.Oms.Auth.Infrastructure.csproj",
+        "packagesPath": "/Users/rodion/.nuget/packages/",
+        "outputPath": "/Users/rodion/Desktop/KPO-IDZ4/hse-kpo-idz-4/AuthService/src/Sd.Oms.Auth.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/rodion/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/rodion/Desktop/KPO-IDZ4/hse-kpo-idz-4/AuthService/src/Sd.Oms.Auth.Core/Sd.Oms.Auth.Core.csproj": {
+                "projectPath": "/Users/rodion/Desktop/KPO-IDZ4/hse-kpo-idz-4/AuthService/src/Sd.Oms.Auth.Core/Sd.Oms.Auth.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/rodion/Library/Caches/VisualStudio/8.0/MSBuild/41977_1/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
